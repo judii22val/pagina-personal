@@ -1,0 +1,85 @@
+<html>
+<title> TITULO </title>
+
+<head>
+
+<style>
+img {
+  width: 33%;
+  height: auto;
+  float: left; 
+}
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(0.30);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
+</style>
+
+</BR></BR></BR></BR>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+</BR></BR></BR></BR>
+// Este codigo permite mostrar 2 imagenes pasando el mouse encima, aunque el tamaño de la imagen puede variar (Borren esta linea para que no se note).
+<body background="de.jpg" >
+<center><img  width= 160  length =100 src="mu.jpg" onmouseover="this.src='ca.jpg';" onmouseout="this.src='cat.jpg';" />
+
+</BR></BR></BR></BR>
+// Este codigo permite mostrar 2 imagenes pasando el mouse encima, aunque el tamaño de la imagen es igual la calidad de la imagen va a variar Borren esta linea para que no se note).
+<a href="URL que redirecciona" target="_blank"><img src="mu.jpg" onmouseover="this.src='ca.jpg';" onmouseout="this.src='cat.jpg';" width="200"  height="200" /></a>
+</BR></BR></BR></BR>
+
+// Este codigo permite mostrar tu imagen usando diversos filtros. Borren esta linea para que no se note)solo camben la direccion por el nombre de su imagen.
+
+<h1>The filter Property</h1>
+
+<img src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="blur" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="brightness" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="contrast" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="grayscale" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="huerotate" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="invert" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="opacity" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="saturate" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="sepia" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+<img class="shadow" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+
+// Este codigo permite mostrar TEXTO por columnas, aunque el tamaño de la imagen es igual la calidad de la imagen va a variar Borren esta linea para que no se note).
+// RECUERDEN QUE BR ES SOLO PARA DAR UN SALTO DE LINEA ESPACIO DE SEPARACION.
+
+</BR></BR></BR></BR>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
